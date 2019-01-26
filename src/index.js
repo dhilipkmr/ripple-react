@@ -54,9 +54,10 @@ export default class Ripple extends Component {
 
   /* Debounce Code to call the Ripple removing function */
   callCleanUp(cleanup, delay) {
+      const that = this;
       return function() {
-        clearTimeout(this.bounce);
-        this.bounce = setTimeout(() => {
+        clearTimeout(that.bounce);
+        that.bounce = setTimeout(() => {
           cleanup();
         }, delay);
       }
