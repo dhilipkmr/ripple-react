@@ -102,7 +102,7 @@ export default class Ripple extends Component {
   render() {
     const {children= null, classes = "", onClickHandler = null} = this.props;
     return (
-      <div ref="targetElement" style={{...styleRipple}} className={classes} onClick={onClickHandler}>
+      <div style={{...styleRipple}} className={classes} onClick={onClickHandler}>
         {children}
         <div style={{...styleRippleContainer}} onMouseDown={this.showRipple} onMouseUp={this.callCleanUp(this.cleanUp, 2000)}>
           {this.renderRippleSpan()}
