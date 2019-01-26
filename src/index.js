@@ -22,7 +22,7 @@ const styleSpan = {
 }
 
 
-export class Ripple extends Component {
+export default class Ripple extends Component {
   constructor(props) {
     super(props);
     this.initializeState = this.initializeState.bind(this);

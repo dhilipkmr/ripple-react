@@ -1,6 +1,6 @@
 {
   "name": "ripple-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ripple Effect using React component",
   "main": "build/index.js",
   "scripts": {
@@ -8,6 +8,14 @@
     "start": "webpack --watch",
     "build": "webpack --mode=production"
   },
+  "keywords": [
+    "ripple",
+    "ripple-effect",
+    "material",
+    "react",
+    "ripple effect react",
+    "water drop effect"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com-dhilip_1211:dhilipkmr/ripple-react.git"
