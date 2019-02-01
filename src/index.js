@@ -17,7 +17,7 @@ const styleSpan = {
   borderRadius: '100%',
   position: 'absolute',
   opacity: '0.75',
-  backgroundColor: '#ffffff',
+  backgroundColor: '#777777',
   animation: 'ripple 850ms'
 }
 
